@@ -1,0 +1,40 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 1rem;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-angle-left {
+    position: relative;
+    /* color: white; */
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 2rem !important;
+    color: white !important;
+}
+
+.fa-angle-left a {
+    position: absolute;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+@media (min-width:641px) {
+
+    .get-back::before,
+    .share-btn::before {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+}

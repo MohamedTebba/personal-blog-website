@@ -1,0 +1,42 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #0d0f05;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px max-content 1fr;
+    grid-gap: 2rem;
+}
+
+p {
+    line-height: 150%;
+    padding: 1rem;
+    font-size: 1em;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: 200;
+}
+
+@media(min-width:481px) {
+    p {
+        width: 30em;
+    }
+}
